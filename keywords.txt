@@ -1,0 +1,35 @@
+#######################################
+# Syntax Coloring Map for ErdiLRF
+#######################################
+
+ErdiLRF	KEYWORD1
+ErdiMeasurement	KEYWORD1
+ErdiModelInfo	KEYWORD1
+ErdiModel	KEYWORD1
+ErdiStatus	KEYWORD1
+
+measure	KEYWORD2
+measureAngle	KEYWORD2
+startContinuous	KEYWORD2
+stopContinuous	KEYWORD2
+readContinuous	KEYWORD2
+setLdAlwaysOn	KEYWORD2
+setBaudB	KEYWORD2
+setTimeout	KEYWORD2
+rawToMetres	KEYWORD2
+erdiDefaultBaud	KEYWORD2
+erdiGetModelInfo	KEYWORD2
+erdiModelName	KEYWORD2
+erdiTxChecksumA	KEYWORD2
+erdiRxChecksumA	KEYWORD2
+erdiCheckSumB	KEYWORD2
+erdiBuildCommandA	KEYWORD2
+erdiBuildCommandB	KEYWORD2
+
+ERDI_OK	LITERAL1
+ERDI_ERR_TIMEOUT	LITERAL1
+ERDI_ERR_CHECKSUM	LITERAL1
+ERDI_ERR_STATUS	LITERAL1
+ERDI_ERR_UNSUPPORTED	LITERAL1
+ERDI_ERR_PROTOCOL_HOLD	LITERAL1
+ERDI_ERR_OUT_OF_RANGE	LITERAL1
