@@ -1,0 +1,26 @@
+{
+  "name": "ErdiLRF",
+  "version": "0.1.0",
+  "description": "Driver for ERDI 905 nm laser rangefinder modules (LR/LRF-A1/SPD1200/LRF-H/LRF-VB series) over UART. Supports the 8-byte 55 AA command/response protocol and the free-running 5C data-frame protocol.",
+  "keywords": ["sensor", "lidar", "rangefinder", "laser", "distance", "uart", "erdi"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yu911517778-a11y/ErdiLRF.git"
+  },
+  "authors": [
+    {
+      "name": "ERDI TECH LTD",
+      "email": "tommy@erdimail.com",
+      "url": "https://erdilrf.com",
+      "maintainer": true
+    }
+  ],
+  "homepage": "https://erdilrf.com",
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": "*",
+  "headers": "ErdiLRF.h",
+  "export": {
+    "include": ["src", "examples", "keywords.txt", "library.properties", "library.json", "LICENSE", "README.md"]
+  }
+}
